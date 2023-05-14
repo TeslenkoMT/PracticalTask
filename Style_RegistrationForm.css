@@ -151,32 +151,30 @@ body {
 
 
 }
+
 /* Ховер Батон */
 .btn-get-started {
-    /* background-color: #28a745; Зелений колір для кнопки без кліку та ховеру */
-    border-color: #28a745; /* Колір рамки для кнопки без кліку та ховеру */
-    color: #fff; /* Колір тексту для кнопки без кліку та ховеру */
-  }
-  
-  .btn-get-started:hover,
-  .btn-get-started:active {
-    background-color: #8cf0a2; /* Темно-зелений колір для кнопки при ховері та кліку */
-    border-color: #218838; /* Темно-зелений колір рамки для кнопки при ховері та кліку */
-    color: #030303; /* Колір тексту для кнопки при ховері та кліку */
-  }
-  /*  */
 
-  .btn-get-started {
-    /* Решта CSS-стилів для кнопки */
-    transition: all 1s ease; /* Додати плавну анімацію для зміни стилів */
-  }
-  
-  /* .btn-get-started:hover,
-  .btn-get-started:active {
-    /* Решта CSS-стилів для кнопки при ховері та кліку */
-    transform: scale(1,0); /* Збільшити розмір кнопки при ховері та кліку */
-  } */
-  
+    border-color: #28a745;
+    color: #fff;
+}
+
+.btn-get-started:hover,
+.btn-get-started:active {
+    background-color: #8cf0a2;
+    border-color: #218838;
+    color: #030303;
+}
+
+/*  */
+
+.btn-get-started {
+
+    transition: all 1s ease;
+}
+
+
+
 
 
 
